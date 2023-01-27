@@ -1,2 +1,3 @@
-# Python-Exercises
- My first exercises in Python
+# Python-Exercises.
+
+ My first exercises in Python.
