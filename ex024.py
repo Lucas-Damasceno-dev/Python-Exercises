@@ -1,0 +1,5 @@
+c = str(input('Digite o nome de uma cidade:').strip()).capitalize()
+print('Existe - Santo - no nome dessa cidade:')
+print('Santo' in c)
+print('É o primeiro nome da cidade: 0 = sim / -1 = não')
+print(c.find('Santo', 0, 5))
