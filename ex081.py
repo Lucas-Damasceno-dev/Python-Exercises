@@ -2,8 +2,8 @@ numeros = []
 resposta = 's'
 while resposta == 's':
     novo_numero = int(input('Digite um valor:  '))
-    resposta = str(input('Quer continuar? [S/N]  ')).strip().lower()
     numeros.append(novo_numero)
+    resposta = str(input('Quer continuar? [S/N]  ')).strip().lower()
     while resposta not in 'sn':
         print('Resposta inválida... Tente novamente.')
         resposta = str(input('Quer continuar? [S/N]  ')).strip().lower()
