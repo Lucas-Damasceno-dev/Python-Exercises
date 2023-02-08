@@ -8,7 +8,7 @@ while resposta == 's':
         print('Resposta inválida... Tente novamente.')
         resposta = str(input('Quer continuar? [S/N]  ')).strip().lower()
 numeros.sort(reverse=True)
-print('-='*25)
+print('-='*30)
 print(f'Você digitou {len(numeros)} elementos')
 print(f'Os valores em ordem decresente são {numeros}')
 if 5 in numeros:
