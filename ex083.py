@@ -1,4 +1,4 @@
-expressao = input("Digite a expressão: ")
+expressao = input("Digite a expressão:  ")
 pilha = []
 for char in expressao:
     if char == '(':
