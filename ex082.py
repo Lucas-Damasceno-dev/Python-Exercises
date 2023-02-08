@@ -20,7 +20,7 @@ while resposta == 's':
     while resposta not in 'sn':
         print('Resposta inválida... Tente novamente.')
         resposta = str(input('Quer continuar?  [S/N] ')).lower().strip()
-print('-='*30)
+print('-='*25)
 print(f'A lista completa é {numeros}')
 print(f'A lista de pares é {pares}')
 print(f'A lista de ímpares é {impares}')
