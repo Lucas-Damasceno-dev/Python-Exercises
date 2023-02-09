@@ -7,6 +7,6 @@ for c in range(0, 7):
         numeros[1].append(novo_numero)
 numeros[0].sort()
 numeros[1].sort()
-print('-='*25)
+print('-='*30)
 print(f'Os valores PARES digitados foram: {numeros[0]}')
 print(f'Os valores ÍMPARES digitados foram: {numeros[1]}')
