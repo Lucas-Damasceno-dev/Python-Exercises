@@ -41,3 +41,5 @@ print(f'C) As mulheres cadastradas foram {mulheres}')
 print(f'D) Listas das pessoas com idade acima da média:')
 for ser in range(0, len(velhos)):
     print(f'Nome = {velhos[ser]}; sexo = {sexo_velhos[ser]}; idade = {idade_velhos[ser]}')
+print()
+print('<< ENCERRADO >>')
