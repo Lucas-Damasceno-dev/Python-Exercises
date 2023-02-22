@@ -13,7 +13,7 @@ def contador(inicio, fim, passo):
 
 # Contagem de 1 a 10, de 1 em 1
 contador(1, 10, 1)
-print('~'*25)
+print('~'*30)
 
 # Contagem de 10 a 0, de 2 em 2
 contador(10, 0, 2)
