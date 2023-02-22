@@ -17,7 +17,7 @@ print('~'*30)
 
 # Contagem de 10 a 0, de 2 em 2
 contador(10, 0, 2)
-print('~'*30)
+print('~'*25)
 
 # Contagem personalizada
 inicio = int(input("Digite o valor inicial: "))
