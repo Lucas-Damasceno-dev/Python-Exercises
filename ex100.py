@@ -1,11 +1,13 @@
 from random import randint
+from time import sleep
 
 
 def sorteio():
     numeros = []
     for i in range(5):
         numeros.append(randint(1, 10))
-    print(f"Sorteando 5 valores da lista: {numeros}. Pronto.")
+        print(f"Sorteando 5 valores da lista: {numeros}. Pronto.")
+        sleep(0.3)
     return numeros
 
 
