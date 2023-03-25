@@ -42,6 +42,7 @@ while True:
                     cont_menu += 1
                 if escolaridade == 5:
                     cont_menu -= 1
+            if cont_menu == 3:
                 '''
             formatura = int(input('Que ano irá se formar? [ano_atual à 2060] '))
             formou = int(input('(PARA EGRESSOS)\n '
